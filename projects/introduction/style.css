@@ -1,0 +1,20 @@
+body{
+  background-color: burlywood;
+}
+
+body{
+  color: saddlebrown;
+}
+p {
+  color: indigo;
+}
+a{
+  color: darkmagenta;
+}
+a:hover{
+  color: seagreen;
+}
+body{
+  font-family: helvetica, sans-serif;
+  text-align: center;
+}
