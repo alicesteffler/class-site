@@ -1,13 +1,14 @@
 body{
-  background-color: black;
-}
-body{
   font: 18px Helvetica, sans-serif;
-  color: white;
+  color: darkorchid;
 }
 a{
-  color: chartreuse;
+  color: mediumslateblue;
 }
 a:hover{
-  background-color: forestgreen;
+  color: cyan;
+}
+body{
+    height: 2000px;
+    background: linear-gradient(to top left, #33ccff 0%, #ff99cc 100%);
 }

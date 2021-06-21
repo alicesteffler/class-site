@@ -1,4 +1,5 @@
 body{
-  background-color:lightblue;
+      height: 1500px;
+      background: linear-gradient(to top left, #33ccff 0%, #ff99cc 100%);
   font: 18px Helvetica, sans-serif;
 }
