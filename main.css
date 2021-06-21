@@ -6,6 +6,8 @@ body{
 ul{
   list-style: none;
 }
+
+/* for the "handmade web" heading so that it can route back w/o being ugly af */
 a:link {
   text-decoration: none;
   color: black;
