@@ -38,3 +38,23 @@ body{
     height: 2000px;
     background: linear-gradient(to top left, #33ccff 0%, #ff99cc 100%);
 }
+
+a:link {
+  text-decoration: none;
+  color: darkorchid;
+}
+
+a:visited {
+  text-decoration: none;
+  color: darkorchid;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: mediumslateblue;
+}
+
+a:active {
+  text-decoration: none;
+  color: darkorchid;
+}
