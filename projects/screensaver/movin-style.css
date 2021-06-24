@@ -43,6 +43,21 @@ box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
   animation: pulse 2s infinite alternate linear;
 }
 
+.square{
+  background: lightblue;
+  width: 100px;
+  height: 100px;
+  margin: 100px auto;
+  animation: spin 3s infinite linear;
+}
+
+.zoomer{
+  background:darkorchid;
+  width: 250px;
+  height: 50px;
+  animation: zoom 3s infinite linear;
+}
+
 @keyframes pulse {
   0%{
     background: lightblue;
@@ -51,5 +66,23 @@ box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
   100%{
     background: pink;
     transform: scale(2);
+  }
+}
+
+@keyframes spin{
+  0%{
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes zoom{
+  0%{
+    transform: translateX(0);
+  }
+  100%{
+    transform: translateX(100vw);
   }
 }
