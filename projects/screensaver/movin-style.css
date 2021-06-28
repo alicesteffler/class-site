@@ -2,6 +2,7 @@ body{
       height: 1500px;
   font: 18px Helvetica, sans-serif;
   margin: 0;
+  background: lightblue;
 }
 
 img{
@@ -34,6 +35,18 @@ text-decoration: none;
 box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
+.flex-container{
+  width: 1700px;
+  height:600px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: center;
+  z-index: 20;
+}
+
 .circle{
   background: lightblue;
   width: 100px;
@@ -52,10 +65,28 @@ box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
 .zoomer{
-  background:darkorchid;
-  width: 250px;
-  height: 50px;
-  animation: zoom 3s infinite linear;
+  background:mediumslateblue;
+  width: 150px;
+  height: 10px;
+  animation: zoom 7s infinite linear;
+}
+
+.zoomer2{
+  background:mediumslateblue;
+  width: 100px;
+  height: 10px;
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
+  animation: zoom 8s infinite linear;
+}
+
+.zoomer3{
+  background:mediumslateblue;
+  width: 230px;
+  height: 10px;
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
+  animation: zoom 9s infinite linear;
 }
 
 @keyframes pulse {
