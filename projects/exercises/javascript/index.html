@@ -1,0 +1,30 @@
+<!doctype html>
+  <html>
+    <head>
+      <title>boilerplate</title>
+      <link rel="stylesheet" href="glow-style.css">
+      <meta name="viewpoint" content="width=device-width, initial-scale=1.0"
+    </head>
+    <body>
+
+      <button onclick="toggle()">Click me...</button>
+
+      <div id="box" class="box-styles">
+        Menu
+        <ul>
+          <li>menu item 1</li>
+          <li>menu item 2</li>
+          <li>menu item 3</li>
+        </ul>
+      </div>
+
+      <script>
+        function toggle() {
+          var box = document.getElementById("box");
+          box.classList.toggle("active");
+        }
+      </script>
+
+      </div>
+    </body>
+  </html>
