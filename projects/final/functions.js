@@ -36,6 +36,9 @@ $(".affirmation-button").on("click",function() {
     if(clicks === 11){
         funcL();
     }
+    if(clicks === 12){
+      if(clicks === 0);
+    }
     clicks++;
 });
 function funcA() {

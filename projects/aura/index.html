@@ -22,16 +22,15 @@ body {
       <div class="circle4"></div>
       <div class="circle3"></div>
 
-      <button onclick="toggle(href="new-page.html")">Caffeinate!</button>
+      <button onclick="pageRedirect()">Caffeinate!</button>
 
       <div id="box" href="new-page.html">
       </div>
 
       <script>
-        function toggle() {
-          var box = document.getElementById("box");
-          box.classList.toggle("active");
-        }
+      function pageRedirect() {
+        window.location.href = "new-page.html";
+      }
       </script>
     </body>
   </html>
